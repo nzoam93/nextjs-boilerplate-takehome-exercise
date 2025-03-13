@@ -24,3 +24,29 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+nav {
+  display: flex;
+  color: aqua;
+  flex-direction: column;
+  justify-content: end
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly; /* Spacing links evenly */
+  padding: 0;
+  margin: 10px 0px;
+}
+
+nav ul li a:hover {
+  color: white; /* Light gray color on hover */
+}
+
+.layout-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+  font-size: large;
+}
