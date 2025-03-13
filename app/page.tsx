@@ -1,10 +1,15 @@
-import Link from 'next/link'
+import Image from "next/image";
 
 export default function Page() {
     return(
     <div>
-        <h1>Hello World!</h1>
-        {/* <Link href={"/question1"}>Question1</Link>
-        <Link href={"/question2"}>Question2</Link> */}
+        <div className="photo-container">
+            <Image
+                src="/images/ggb-pic.png"
+                alt="ggb-photo"
+                width={500}
+                height={300}
+            />
+        </div>
     </div>
 )}
