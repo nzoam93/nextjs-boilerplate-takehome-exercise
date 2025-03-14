@@ -15,7 +15,7 @@ My name is Noam Zimet, customer success manager at Vercel. I have been in previo
 
 I see that your current build has some errors and that your Vercel usage has decreased by about 50% in the past quarter. Given that Vercel hosts your company’s marketing page, I want to ensure that it is running smoothly so that you do not miss out on any potential marketing opportunities!
 
-The errors are visible through Cloudflare (a reverse proxy in front of Vercel). I understand that your engineering team is small with just a single developer so I wanted to offer a hand at troubleshooting the errors. Please let me know what questions you may have about these errors and I'd be happy to assist and help get your Vercel deployment back to being error-free!
+The errors are visible through Cloudflare (a reverse proxy in front of Vercel). I understand that your engineering team is small with just a single developer so I wanted to offer a hand at troubleshooting the errors. Please let me know what questions you may have about these errors and I'd be happy to help get your Vercel deployment back to being error-free!
 
 
 

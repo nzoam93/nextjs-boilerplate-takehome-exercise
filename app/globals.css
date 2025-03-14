@@ -65,6 +65,15 @@ nav ul li a:hover {
   margin-left: 15px;
 }
 
+.q4-images{
+  margin-left: 15px;
+  display: flex;
+}
+
+.q4-images img{
+  margin-right: 50px;
+}
+
 .email-container p {
   margin-bottom: 10px;
 }

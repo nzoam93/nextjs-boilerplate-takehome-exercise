@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const q4aMarkdown = `
 **Question 4a:** Create and embed a 3-7 minute video on why Core Web Vitals are
-important to an Enterprise customer at Vercel`
+important to an Enterprise customer at Vercel.`
 
 const q4bMarkdown = `
 **Question 4b:** Interpret the Core Web Vitals of a popular retail
@@ -13,9 +13,11 @@ concentrate on to improve their overall Lighthouse score.`
 
 
 const a4bMarkdown = `
-Going into a bit more depth than what was covered in the video: ebay’s INP score is currently low. If you scroll down on the PageSpeed Insights, you can see exactly what is recommended to improve responsiveness, which will improve the INP score, leading to better Core Web Vitals and a higher Google Search ranking.
+As shown in the first screenshot, Under Armour’s core web vitals stats are poor and are currently failing.
 
-For instance, as shown in the screenshot above: we can see that the some of the top suggestions to improve ebay’s INP are to reduce JS execution time, to minimize the main-thread work, and to reduce the impact of third-party code.
+If you scroll down on the PageSpeed Insights webpage (second screenshot), you can see exactly what is recommended to improve these Core Web Vitals, which will lead to a better user experience and will be rewarded with a higher Google Search ranking. We can see that the some of the top suggestions are to reduce main thread work, improve loading time of the largest contentful paint, and to avoid an excessive DOM size.
+
+A developer can improve their Lighthouse score by addressing any of these issues. For instance, to improve the excessive DOM size: load your webpage, manually take note of which nodes are necessary for the initial load, and remove those that aren’t, only creating them after a user interaction like clicking on a button.
 `
 
 
@@ -27,15 +29,21 @@ export default function question4(){
                 <Markdown>{q4aMarkdown}</Markdown>
             </div>
             <video className='q4-media' width="800" height="600" controls>
-                <source src="/videos/core-web-vitals.mp4" type="video/mp4" />
+                <source src="/videos/core-web-vitals-underarmour.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
             <div className='email-container'>
                 <Markdown>{q4bMarkdown}</Markdown>
             </div>
-            <div className="q4-media">
+            <div className="q4-images">
                 <Image
-                    src="/images/ebay-core-web-vitals.png"
+                    src="/images/core-web-vitals-underarmour-1.png"
+                    alt="core-web-vitals"
+                    width={500}
+                    height={300}
+                />
+                <Image
+                    src="/images/core-web-vitals-underarmour-2.png"
                     alt="core-web-vitals"
                     width={500}
                     height={300}
