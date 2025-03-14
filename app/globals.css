@@ -26,21 +26,23 @@ body {
 }
 
 nav {
+  padding: 10px 0px 0px 0px;
   display: flex;
-  color: aqua;
   flex-direction: column;
-  justify-content: end
+  justify-content: end;
+  font-style: italic;
+  font-weight: bold;
 }
 
 nav ul {
   display: flex;
-  justify-content: space-evenly; /* Spacing links evenly */
+  justify-content: space-evenly;
   padding: 0;
   margin: 10px 0px;
 }
 
 nav ul li a:hover {
-  color: white; /* Light gray color on hover */
+  color: whitesmoke;
 }
 
 .layout-header{
@@ -65,6 +67,15 @@ nav ul li a:hover {
 
 .email-container p {
   margin-bottom: 10px;
+}
+
+.email-container ul{
+  list-style: disc;
+  margin-left: 25px;
+}
+
+.email-container li{
+  margin-bottom: 6px;
 }
 
 .photo-container{

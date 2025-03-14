@@ -26,10 +26,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`} >
-        <div className="layout-header">
+        {/* <div className="layout-header">
           <p>Digital Success Take Home Assignment</p>
           <p>By: Noam Zimet </p>
-        </div>
+        </div> */}
         <nav>
           <ul>
             <li><Link href={"/"}>Home</Link></li>

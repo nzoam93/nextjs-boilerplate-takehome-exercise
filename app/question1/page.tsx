@@ -8,21 +8,23 @@ her team. Please write a response to the customer.`
 const a1Markdown = `
 Hi Christy,
 
-Thank you for your question regarding the comparison of React and Next.js.
+React is a library of functions that are used to create an application’s frontend UI. Next.js is a framework built on top of React which makes it easier to create React applications.
 
-First, let’s touch upon the distinction between React and Next.js: React is essentially a library of functions that are used to create an application’s frontend UI. Next.js itself comes in as a React framework which makes it easier to create React applications. If you are interested, more info about this topic can be found on Next.js’s website at *https://nextjs.org/learn/react-foundations/what-is-react-and-nextjs.*
+There are several benefits of using Next.js to develop your applications.
 
-There are several benefits of using Next.js to develop your applications. One benefit is that Next.js incorporates server-side rendering and static site generation, which contributes to *faster page load times* and directly *improves core web vital statistics.* This enables search engines to be able to more easily read the content of the application without needing to run client-side rendering as is typically done with React applications, directly *improving SEO results.* These benefits should also have a direct *improvement of conversion rates* as customers will both be able to more easily find your website through better SEO, and have a better experience once on the website due to faster performance.
+- Next.js incorporates server-side rendering and static site generation, which contributes to faster page load times and directly improves core web vital statistics.
+- Search engines are able to more easily read the content of your application without needing to run client-side rendering as is typically done with React applications, directly improving SEO results.
+- Improve conversion rates as customers will both be able to more easily find your website through better SEO, and have a better experience once on the website due to faster performance.
+- Next.js is widely used by developers and has many resources available for developers to use when transitioning to Next.js.
 
-Next.js is widely used by developers and has a vast ecosystem of resources available for developers to utilize when transitioning to Next.js (or when simply stuck). Personally, as a developer learning Next.js, I appreciated its intuitiveness. Many aspects of Next.js simply make intuitive sense, such as the use of a file-based routing system which allows for navigation to be automatically set up based on the file tree of your application.
 
-I am always available for further questions, and I look forward to our continued collaboration.
+More info about Next.js and its relation to React can be found **[here](https://nextjs.org/learn/react-foundations/what-is-react-and-nextjs)**.
 
 All the best,
 
 Noam Zimet
 
-Vercel Customer Success Manager
+Customer Success Manager
 `
 
 
