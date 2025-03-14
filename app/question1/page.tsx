@@ -12,9 +12,9 @@ React is a library of functions that are used to create an application’s front
 
 There are several benefits of using Next.js to develop your applications.
 
-- Next.js incorporates server-side rendering and static site generation, which contributes to faster page load times and directly improves core web vital statistics.
-- Search engines are able to more easily read the content of your application without needing to run client-side rendering as is typically done with React applications, directly improving SEO results.
-- Improve conversion rates as customers will both be able to more easily find your website through better SEO, and have a better experience once on the website due to faster performance.
+- Next.js incorporates server-side rendering and static site generation, which contributes to *faster page load times* and *directly improves core web vital statistics*.
+- Search engines are able to more easily read the content of your application without needing to run client-side rendering as is typically done with React applications, *directly improving SEO results.*
+- Improve conversion rates as customers will both be able to more easily find your website through better SEO, and have a *better user experience* once on the website due to faster performance.
 - Next.js is widely used by developers and has many resources available for developers to use when transitioning to Next.js.
 
 
