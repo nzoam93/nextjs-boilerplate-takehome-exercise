@@ -17,8 +17,7 @@ There are several benefits of using Next.js to develop your applications.
 - Improve conversion rates as customers will both be able to more easily find your website through better SEO, and have a *better user experience* once on the website due to faster performance.
 - Next.js is widely used by developers and has many resources available for developers to use when transitioning to Next.js.
 
-
-More info about Next.js and its relation to React can be found **[here](https://nextjs.org/learn/react-foundations/what-is-react-and-nextjs)**.
+Another benefit of Next.js is the ability to integrate directly with Vercel (the maker of Next.js). Vercel is a frontend cloud platform from which a developer can seamlessly deploy Next.js applications. As just one example of the many benefits of this integration, Vercel utilizes serverless functions, which is crucial for the aforementioned server-side rendering benefit of Next.js. In case you are unfamiliar with Vercel, **[here](https://vercel.com/blog/what-is-vercel)** is a quick read that provides an overview of the product.
 
 All the best,
 

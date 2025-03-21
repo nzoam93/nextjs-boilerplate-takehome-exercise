@@ -8,16 +8,19 @@ and executive sponsor of the account to re-engage and start to perform
 some discovery.`
 
 const a3Markdown = `
-Hello Alex,
+Hi Alex,
 
-My name is Noam Zimet, customer success manager at Vercel. I have been in previous communication with Tanner, but I recently found out that they left the company. In case you are unfamiliar with Vercel, **[here](https://vercel.com/blog/what-is-vercel)** is a quick read that provides an overview of the product.
+My name is Noam Zimet, customer success manager at Vercel. I have been in previous communication with Tanner, but I recently found out that they left the company.
 
+Vercel offers many advantages to web developers:
+- Fast and easy website deployment: you can deploy your website and make it accessible across the internet with just a few clicks
+- Lightning-fast performance: Vercel optimizes your website to make it faster
+- Scalability: as your website becomes more popular, Vercel can automatically scale as necessary to ensure that it is still accessible to the increased level of traffic.
+- Simple integration with existing tools: easily connect with common tools that developers are already using
 
-I see that your current build has some errors and that your Vercel usage has decreased by about 50% in the past quarter. Given that Vercel hosts your company’s marketing page, I want to ensure that it is running smoothly so that you do not miss out on any potential marketing opportunities!
+I am writing because I noticed that your current Vercel build has some errors and I see that your usage has decreased by about 50% in the past quarter. Given that Vercel hosts your company’s marketing page, I want to ensure that it is running smoothly so that you do not miss out on any potential marketing opportunities!
 
-The errors are visible through Cloudflare (a reverse proxy in front of Vercel). I understand that your engineering team is small with just a single developer so I wanted to offer a hand at troubleshooting the errors. Please let me know what questions you may have about these errors and I'd be happy to help get your Vercel deployment back to being error-free!
-
-
+I understand that your engineering team is small with just a single developer so I wanted to offer a hand at fixing these errors. Given that Tanner is no longer with your company, could you please provide me with the best contact to continue conversations with moving forward?
 
 All the best,
 

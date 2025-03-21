@@ -19,6 +19,8 @@ I understand that you are currently using Next.js App Router and wish to add gen
 
 **[This](https://vercel.com/blog/introducing-fluid-compute)** Vercel blog post is a great resource to learn even more about fluid compute.
 
+Hopefully this helped provide a good overview of the benefits of fluid compute. In an effort to help convince your CTO of its utility, it would be helpful to learn a little more about your specific use case so that we can solidify the benefits (cost savings, etc) of using fluid compute. If you could please clarify this, then I can create a detailed one-pager to share with your CTO.
+
 All the best,
 
 Noam Zimet
